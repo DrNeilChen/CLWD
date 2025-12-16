@@ -1,0 +1,37 @@
+seed: 3407
+cuda: [0]
+
+# Basic training information
+max_epochs: 200
+batch_size: 6
+num_workers: 0
+lr: 0.001
+kfold: 5
+mode: train
+
+# Data
+dataset: graph_transformer_data
+data_dir: data/CLWD/feature-512-18
+label_file: labels/CLWD/kfold
+
+# Trainer
+model_name: graph_transformer_net
+loss: ce
+optimizer:
+weight_decay: 0.0005
+
+# Logging
+log_name: graph_transformer
+log_dir: log/CLWD
+log_v: 
+osave_dir: results/CLWD/graph_transformer
+
+load_best: true 
+load_ver: 
+best_key: all
+# Learning rate adjustment
+lr_scheduler: multisteplr
+lr_decay_steps: [20,100]
+lr_decay_rate: 0.1
+lr_decay_min_lr: 
+

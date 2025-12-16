@@ -1,0 +1,37 @@
+seed: 2021
+cuda: [0]
+precision: 16
+# Basic training information
+max_epochs: 200
+batch_size: 1
+num_workers: 0
+lr: 0.0002
+kfold: 5
+mode: train
+
+# Data
+dataset: transmil_data
+data_dir: data/CLWD/feature-256-50
+label_file: labels/CLWD/kfold
+
+# Trainer
+model_name: transmil_net
+loss: ce
+optimizer: lookaheadadam
+weight_decay: 0.00001
+
+# Logging
+log_name: transmil
+log_dir: log/CLWD
+log_v:
+osave_dir: results/CLWD/transmil
+
+load_best: true 
+load_ver: 
+best_key: all
+# Learning rate adjustment
+lr_scheduler: 
+lr_decay_steps: 20
+lr_decay_rate: 0.5
+lr_decay_min_lr: 0.00001
+
