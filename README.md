@@ -135,6 +135,8 @@ The visualizations help understand the feature distribution and similarity betwe
 We gratefully acknowledge the following resources and works that made this project possible:
 
 ### Datasets
+
+- **CLWD Dataset**: The dataset is publicly available and can also be accessed directly through our Pathology Image Repository ( https://leelab.kmmu.edu.cn/PathologyRepository ). Otherwise, the JPG version of the dataset also available at the Hugging Face repository ( https://huggingface.co/datasets/kmmuleelab/Lung_Pathology_Image_JPG ).
 - **DHMC Dataset**: [Dartmouth Lung Cancer Histology Dataset](https://bmirds.github.io/LungCancer/)
 
 ### Methods
