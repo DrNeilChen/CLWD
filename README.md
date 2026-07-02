@@ -160,13 +160,7 @@ We also thank the preprocessing pipeline adapted from [vkola-lab/tmi2022](https:
 
 If you find this work useful for your research, please consider citing:
 
-```bibtex
-@article{,
-  title={CLWD: a Chinese histopathology dataset for lung adenocarcinoma subtype classification},
-  author={},
-  journal={},
-  year={}
-}
+```Chen Y, Zhao H, Wang L, Li L, Liu R, Jiang Y, Tang P, Li Y, Ni J, Tao D, Li J, Peng J. CLWD: a Chinese histopathology dataset for lung adenocarcinoma subtype classification. Sci Data. 2026 Mar 5;13(1):599. doi: 10.1038/s41597-026-06906-z. PMID: 41786798; PMCID: PMC13079772.
 ```
 ---
 
